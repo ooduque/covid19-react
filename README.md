@@ -6,3 +6,6 @@ https://ooduque.github.io/covid19-react/
 
 Resource : API
 https://covid19.mathdro.id/api
+
+The UI design was done with Material-ui:
+npm install @material-ui/core
