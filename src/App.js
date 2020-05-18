@@ -29,7 +29,7 @@ class App extends React.Component {
 
         return (
             <div className={styles.container}>
-                <div className={styles.foot}><a href="https://covid19.mathdro.id/api">API Used: https://covid19.mathdro.id/api </a></div>
+                <div className={styles.foot}><a href="https://covid19.mathdro.id/api">API: https://covid19.mathdro.id/api </a></div>
                 <img className={styles.image} src={covidimage} alt="COVID-19" />
                 <Title TitleName="GLOBAL CASES" country={country}/>
                 <Cards data={data} />
