@@ -36,7 +36,7 @@ class App extends React.Component {
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Title graph={"GRAPH: "} country={country}/>  
                 <Chart data={data} country={country} /> 
-                <div className={styles.foot}>&copy; 2020&nbsp;<a href="https://github.com/ooduque">Atanda Olanrewaju</a></div>
+                <div className={styles.foot}>&copy; 2020&nbsp;<a href="https://github.com/ooduque/">Atanda Olanrewaju</a></div>
             </div>
         )
     }
